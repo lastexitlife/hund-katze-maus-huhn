@@ -1,3 +1,50 @@
-*{
-	box-sizing: border-box;
+*{box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.wrapper {
+	width: 960px;
+	height: 100%;
+	margin: auto;
+	background: seagreen;
+}
+
+h1 {
+	font-size: 2cm;
+	text-align: center;
+	text-transform: uppercase
+}
+
+.row-flex {
+	display: flex;
+}
+
+.col-flex {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+
+/*Kurzform ist flex: 1 1 auto;*/
+
+	margin: 10px;
+}
+
+.col-flex img {
+	width:100%;
+}
+
+.col-float {
+	float: left;
+	width: 33.3333333%;
+}
+
+.col-float img {
+	width: 100%;
 }
